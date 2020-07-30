@@ -30,22 +30,25 @@ const url = "http://localhost:3000/characters"
 
     const calories = document.getElementById('calories')
     calories.innerText = character.calories
-    }
+    
     
     const button = document.querySelector('button[type="submit"]')
-    button.addEventListener
- 
-    /* const addCalories = (calories) =>
-    //  param = {
-    //      method: 'PATCH',
-    //      headers: {
-    //          "content-type": "application/json",
-    //          "accept": "application/json"
-    //      },
-    //      body: JSON.stringify(calories)
-    //     }
-    //      fetch(url)
-    // } */ 
+    
+    button.addEventListener('click', (e) => {
+        const caloriesAdded = charater.calories + input 
+    } )
+}
+     const addCalories = (calories) =>
+     param = {
+         method: 'PATCH',
+         headers: {
+             "content-type": "application/json",
+             "accept": "application/json"
+         },
+         body: JSON.stringify(calories)
+        }
+         fetch(url)
+    }  
 
 
 
